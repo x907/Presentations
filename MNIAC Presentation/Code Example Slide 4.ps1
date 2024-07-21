@@ -45,5 +45,3 @@ function Enable-AzureADMFA {
         Write-Error "An error occurred: $_"
     }
 }
-
-# Example usage: Enable-AzureADMFA -userId "user1@contoso.com"
