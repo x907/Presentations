@@ -58,8 +58,6 @@
 - Examples of policies: Location-based access, device compliance, risk-based access.
 - Technical demonstration of Conditional Access setup and enforcement.
 
-**Case Study:** Implementation of Conditional Access in a Zero Trust architecture, focusing on policy configurations and enforcement [source](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview).
-
 **Talking Points:**
 
 - **Conditional Access Policies:** Define and enforce security policies based on user conditions.
@@ -67,7 +65,7 @@
   - **Location-based access:** Restricts access based on geographical location.
   - **Device compliance:** Ensures only compliant devices can access resources.
   - **Risk-based access:** Assesses the risk level of sign-in attempts and enforces additional controls.
-- **Technical Demo:** Demonstrate the setup and enforcement of Conditional Access policies. If you have time maybe at the end.
+- **Technical Demo:** Demonstrate the setup and enforcement of Conditional Access policies. (Live)
 - Conditional Access ensures secure conditions for accessing resources, enhancing overall security.
 
 ---
@@ -100,57 +98,7 @@ Deploying MFA secures access and protects against unauthorized access. Next, let
 
 ---
 
-## Slide 5: Automation in IAM
-
-**Title:** Automation in IAM
-
-**Background:** Diagram showing automated workflows in IAM.
-
-**Main Content:**
-- Streamlining access provisioning, de-provisioning, and lifecycle management.
-- Tools: PowerShell, Azure Logic Apps, Microsoft Identity Manager (MIM).
-- Example: Automating user onboarding and offboarding.
-
-**Talking Points:**
-
-- **Streamlining Processes:** Automation reduces manual workload, minimizes errors, and ensures consistent access controls.
-- **Key Tools:**
-  - **PowerShell:** Automates Windows tasks, including user management.
-  - **Azure Logic Apps:** Automates workflows, integrates applications/services.
-  - **Microsoft Identity Manager (MIM):** Manages identity lifecycles.
-- **Example:** Efficiently create accounts, assign roles, and provision resources with automation.
-- **Technical Details:** PowerShell scripts for onboarding/offboarding.
-
-Automation in IAM enhances efficiency and security. Next, we'll discuss advanced threat protection with Microsoft Defender.
-
----
-
-## Slide 6: Advanced Threat Protection with Microsoft Defender
-
-**Title:** Advanced Threat Protection with Microsoft Defender
-
-**Background:** Diagram showing threat detection and response workflow.
-
-**Main Content:**
-- Integration of IAM with Microsoft Defender for Identity.
-- Real-time threat detection: Monitoring suspicious activities and alerts.
-- Technical setup and configuration of advanced threat protection.
-
-**Talking Points:**
-
-- **Integration with Microsoft Defender for Identity:** Enhances security by monitoring and managing identity-related events.
-- **Real-time Threat Detection:** Uses advanced analytics and machine learning to detect suspicious activities and respond quickly.
-- **Technical Setup:**
-  - **Provisioning:** Deploy sensors on domain controllers.
-  - **Configuration:** Define suspicious activities and set alerts.
-  - **Integration:** Ensure coverage with Azure AD and other tools.
-  - **Monitoring:** Regularly review alerts and adjust detection rules.
-
-Integrating IAM with Microsoft Defender provides robust protection against identity-based threats. Next, we'll discuss IAM governance and compliance.
-
----
-
-## Slide 7: IAM Governance and Compliance
+## Slide 5: IAM Governance and Compliance
 
 **Title:** IAM Governance and Compliance
 
@@ -180,7 +128,7 @@ IAM governance and compliance protect sensitive data and meet regulatory require
 
 ---
 
-## Slide 8: Future Trends in IAM
+## Slide 6: Future Trends in IAM
 
 **Title:** Future Trends in IAM
 
